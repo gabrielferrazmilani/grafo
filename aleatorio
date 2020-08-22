@@ -17,10 +17,7 @@ for i in range(X+1):
             G.add_edge(i,j)
         if j != i and j!= X/2:
             if lig == 1:
-                G.add_edge(i,j)
-            
-
-
+                G.add_edge(i,j)         
 
 
 nx.draw(G, with_labels=1)
